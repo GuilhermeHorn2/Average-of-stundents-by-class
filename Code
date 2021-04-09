@@ -1,0 +1,16 @@
+
+nt = int(input(':'))
+
+r = []
+
+
+i = 0
+while i < nt:
+    na = int(input(":"))
+    if na > 40:
+        print('Cannot surpass 40')
+    elif na < 40:
+        r.append(na)
+    i += 1
+m = sum(r)/nt
+print(m)
